@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+}
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 3em;
+    font-style: italic;
+    
+    /*shorthand
+    - font-style -> font-weight -> font-size -> font-family 
+    */
+
+    font: italic bolder 3em "Times New Roman", sans-serif;
+    
+}
